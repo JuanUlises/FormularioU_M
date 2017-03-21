@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+	<title>Formulario con HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="container">
+	<header>
+	<h2>Formulario con HTML5</h2>
+	</header>
+
+
+<nav>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Inicio</a></li>
+		<li><a href="#">Contactos</a></li>
+		<li><a href="#">Noticias</a></li>
+		<li><a href="#">Proyectos</a></li>
+	</ul>
+</nav>
+
+<section class="jumbotron">
+	<form method="POST" >
+		<label>Nombre</label>
+			<input type="text" name="nombre" placeholder="Escriba su Nombre" required>
+			<br>
+		<label>Apellido</label>
+			<input  type="text" name="apellido" placeholder="Escriba su Apellido" required>
+			<br>
+		<label>Email</label>
+			<input type="Email" name="email" placeholder="Escriba su Email" required>
+			<br>
+		<label>Edad</label>
+			<input type="number" name="edad" placeholder="Escriba su Edad" required min="10" max="90">
+			<br>
+		<label>Fecha de Nacimiento</label>
+			<input type="date" name="fecha" required>
+			<br>
+		<input type="submit" class="btn-primary" value="Guardar">
+	</form>
+</section>
+<div style="text-align: center;">
+	<footer>
+		&copy Ulises Martínez
+	</footer>
+</div>
+</body>
+</html>
